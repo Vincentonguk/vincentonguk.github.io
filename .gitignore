@@ -2,3 +2,14 @@
 *.bak
 
 *.bak-*
+# editor / sistema
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+# node / build
+node_modules/
+dist/
+build/
+# temporários
+*.log

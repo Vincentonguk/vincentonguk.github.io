@@ -1,0 +1,55 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="520" viewBox="0 0 1024 520">
+  <defs>
+    <style>
+      .bg { fill:#0a0f14; }
+      .card { fill:#101a26; stroke:#1b2432; stroke-width:2; rx:16; ry:16; }
+      .title { fill:#e8f7ff; font: 700 22px 'Segoe UI', Arial, sans-serif; }
+      .txt { fill:#bfeaff; font: 14px 'Segoe UI', Arial, sans-serif; }
+      .accent { fill:#4de0ff; }
+      .arrow { stroke:#4de0ff; stroke-width:3; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" class="accent"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1024" height="520"/>
+  <text x="30" y="40" class="title">SQLA — Signal • Quantum • Laser (Unified Intelligence Field)</text>
+
+  <!-- SIGNAL -->
+  <rect x="40" y="80" width="280" height="120" class="card"/>
+  <text x="60" y="110" class="title">SBCS — Logical Layer</text>
+  <text x="60" y="140" class="txt">F/A/P extraction · Interference = Computation</text>
+  <text x="60" y="165" class="txt">SCFL score · Handshake · Frames</text>
+
+  <!-- Arrow 1 -->
+  <line x1="320" y1="140" x2="380" y2="140" class="arrow"/>
+
+  <!-- QUANTUM -->
+  <rect x="380" y="80" width="280" height="120" class="card"/>
+  <text x="400" y="110" class="title">QCI — Coherence Layer</text>
+  <text x="400" y="140" class="txt">Superposition · Entanglement · Lock</text>
+  <text x="400" y="165" class="txt">Signal-Driven Quantum Cloud</text>
+
+  <!-- Arrow 2 -->
+  <line x1="660" y1="140" x2="720" y2="140" class="arrow"/>
+
+  <!-- LASER -->
+  <rect x="720" y="80" width="280" height="120" class="card"/>
+  <text x="740" y="110" class="title">LTI — Energy/Tx Layer</text>
+  <text x="740" y="140" class="txt">Laser beam encodes & computes</text>
+  <text x="740" y="165" class="txt">Transmission = Computation</text>
+
+  <!-- Down arrows -->
+  <line x1="180" y1="200" x2="180" y2="260" class="arrow"/>
+  <line x1="520" y1="200" x2="520" y2="260" class="arrow"/>
+  <line x1="860" y1="200" x2="860" y2="260" class="arrow"/>
+
+  <!-- UNIFIED FIELD -->
+  <rect x="40" y="260" width="960" height="160" class="card"/>
+  <text x="60" y="290" class="title">Unified Intelligence Field (LEC · PMAP · SCFL)</text>
+  <text x="60" y="320" class="txt">LEC: energy coherence = logical persistence</text>
+  <text x="60" y="345" class="txt">PMAP: magnetic bias stabilizes spectral corridor</text>
+  <text x="60" y="370" class="txt">SCFL: adaptive lock (PLL-like) — coherence score ↑, jitter/BER ↓</text>
+
+  <text x="40" y="450" class="txt">© 2025 Vinicios Ongaratto · Quantum Systems — v0.2</text>
+</svg>
