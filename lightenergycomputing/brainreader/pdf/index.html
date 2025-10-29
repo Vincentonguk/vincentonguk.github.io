@@ -1,74 +1,32 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>BrainReader • Documents / PDFs</title>
+  <meta charset="utf-8" />
+  <title>Brain Reader - PDFs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <style>
-    body {
-      margin: 0;
-      background: #0b1217;
-      color: #cfd8e3;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial;
-    }
-    .wrap {
-      max-width: 1000px;
-      margin: 48px auto;
-      padding: 0 16px;
-    }
-    .card {
-      background: #0f1720;
-      border: 1px solid #1b2a38;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 16px 0;
-    }
-    a.btn {
-      display: inline-block;
-      padding: 10px 16px;
-      border: 1px solid #4de0ff;
-      border-radius: 12px;
-      color: #4de0ff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    a.btn:hover {
-      filter: brightness(1.1);
-    }
-    iframe {
-      width: 100%;
-      height: 78vh;
-      border: 0;
-      background: #0b1016;
-    }
+    body { background:#0e1621; color:#cfd8dc; font-family:system-ui,Segoe UI,Roboto; margin:0; padding:24px; }
+    .card { max-width:860px; margin:0 auto; padding:18px; border:1px solid #1b2432; border-radius:14px; background:#0f1b2a; }
+    h1 { color:#4de0ff; margin-top:0; }
+    a.btn { display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #4de0ff;
+            text-decoration:none; color:#0e1621; background:#4de0ff; font-weight:600; }
+    .meta { margin-top:10px; color:#9ec9db; font-size:0.95rem; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>📄 BrainReader — Documents / PDFs</h1>
-
-    <div class="card">
-      <h3>Open / Download</h3>
-      <p>
-        <a class="btn" href="/lightenergycomputing/Light_and_Energy_Computing_ViniciosOngaratto.pdf" target="_blank" rel="noopener">
-          Main Paper
-        </a>
-        <a class="btn" href="/lightenergycomputing/Ideological_Scientific_Context_ViniciosOngaratto.pdf" target="_blank" rel="noopener">
-          Ideological–Scientific Context
-        </a>
-      </p>
+  <section class="card">
+    <h1>🧠 Brain Reader - Cognitive & Kinetic Development Phase</h1>
+    <p>A document detailing the initial phase of the Brain Reader Project, focusing on cognitive and kinetic sensor integration for human-machine interaction.</p>
+    <p>
+      <a class="btn" href="/lightenergycomputing/brainreader/pdf/BrainReader_Project_Development.pdf" target="_blank">
+        📘 Download BrainReader Project Development (PDF)
+      </a>
+    </p>
+    <div class="meta">
+      Author: Vinicios Ongaratto - 2025 · Contact: vincentonguk@gmail.com ·
+      YouTube: @vincentonguk · X: @vincentonguk · Facebook: Vinicios Ongaratto · Spotify: vincentonguk
     </div>
-
-    <div class="card">
-      <h3>Inline Viewer (Main Paper)</h3>
-      <iframe src="/lightenergycomputing/Light_and_Energy_Computing_ViniciosOngaratto.pdf#view=FitH&zoom=page-width"></iframe>
-    </div>
-
-    <div class="card" style="text-align:center">
-      <a class="btn" href="../">← Back to BrainReader</a>
-    </div>
-  </div>
+  </section>
 </body>
 </html>
-
-<!-- updated: 2025-10-27T18:35Z -->
