@@ -2,73 +2,145 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>BrainReader Workspace — Público</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>BrainReader Workspace (público)</title>
   <style>
     :root{
-      --bg:#0b1220;--panel:#0f1a2b;--accent:#4de0ff;--ink:#d7f3ff;--line:#1b2940;--muted:#9fe;
+      --bg:#0b1220;--card:#0e1729;--ink:#d6f3ff;--muted:#9ec9db;--accent:#4de0ff;--line:#1b2432;
     }
-    *{box-sizing:border-box} html,body{margin:0}
-    body{background:var(--bg);color:var(--ink);font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;padding:32px}
-    h1{color:var(--accent);margin:0 0 18px}
-    h2{margin:16px 0 10px}
-    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
-    .btn{display:inline-block;margin-top:10px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);text-decoration:none;color:#0bf}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);
+         font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+    a{color:var(--accent);text-decoration:none}
+    h1{font-size:clamp(1.6rem,2.5vw,2.2rem);margin:24px 20px 8px}
+    .subtitle{color:var(--muted);margin:0 20px 24px}
+    .wrap{max-width:1200px;margin:0 auto;padding:0 16px 56px}
+
+    /* layout 2 colunas: cards à esquerda + figura/descrição à direita */
+    .grid-2{
+      display:grid;gap:24px;
+      grid-template-columns: 1.2fr 1fr;
+    }
+    @media (max-width: 980px){ .grid-2{grid-template-columns: 1fr; } }
+
+    /* cards */
+    .grid-cards{
+      display:grid;gap:18px;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    }
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;
+      box-shadow:0 0 0 1px rgba(77,224,255,.05) inset;
+    }
+    .card h3{margin:0 0 6px}
+    .note{color:var(--muted);margin:8px 0 0}
+
+    /* botão */
+    .btn{
+      display:inline-block;margin-top:10px;padding:10px 14px;border-radius:12px;
+      border:1px solid var(--line);background:#09111d;color:#dff8ff;font-weight:600
+    }
     .btn:hover{background:#11223a}
-    .note{color:var(--muted)}
-    .media{max-width:860px;margin:28px auto 0;padding:18px;border:1px dashed var(--line);border-radius:14px;background:#0d1828}
-    .media a{color:var(--accent);text-decoration:none}
-    .media p{margin:8px 0}
-    footer{margin-top:26px;color:var(--muted)}
+
+    /* figura lateral + texto */
+    .side{
+      background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px
+    }
+    figure{margin:0}
+    figure img{
+      width:100%;height:auto;border:1px solid var(--line);border-radius:14px;display:block
+    }
+    .figcap{font-size:.95rem;color:var(--muted);margin-top:10px}
+    .bullets{margin-top:14px}
+    .bullets h3{margin:0 0 8px}
+    .bullets ul{margin:0 0 10px 18px}
+    footer{margin-top:28px;color:#8fe; font-size:.95rem}
+    .media{
+      background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:18px
+    }
   </style>
 </head>
 <body>
-  <h1>BrainReader Workspace (público)</h1>
-  <p>Versão pública restaurada — sem login.</p>
+  <div class="wrap">
+    <h1>BrainReader Workspace (público)</h1>
+    <p class="subtitle">Versão pública restaurada — sem login.</p>
 
-  <div class="grid">
-    <div class="card">
-      <h3>🎬 Vídeo Demo</h3>
-      <p>BrainReader Fase 1 (PMAP)</p>
-      <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Abrir vídeo</a>
-    </div>
+    <div class="grid-2">
+      <!-- Coluna esquerda: cards + mídias -->
+      <div>
+        <div class="grid-cards">
+          <div class="card">
+            <h3>📼 Vídeo Demo</h3>
+            <p>BrainReader Fase 1 (PMAP)</p>
+            <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Abrir vídeo</a>
+          </div>
 
-    <div class="card">
-      <h3>📄 PDFs do projeto</h3>
-      <p>Documentos do BrainReader.</p>
-      <a class="btn" href="/lightenergycomputing/brainreader/pdfs/">Abrir PDFs</a>
-    </div>
+          <div class="card">
+            <h3>📄 PDFs do projeto</h3>
+            <p>Documentos do BrainReader.</p>
+            <a class="btn" href="/lightenergycomputing/brainreader/pdfs/">Abrir PDFs</a>
+          </div>
 
-    <div class="card">
-      <h3>🖼️ Imagens</h3>
-      <p>Capturas/arte do projeto (adicionar depois).</p>
-      <a class="btn" href="/lightenergycomputing/assets/img/">Abrir imagens</a>
-    </div>
+          <div class="card">
+            <h3>🖼 Imagens</h3>
+            <p>Capturas/arte do projeto (adicionar depois).</p>
+            <a class="btn" href="/lightenergycomputing/assets/img/">Abrir imagens</a>
+          </div>
 
-    <div class="card">
-      <h3>🧭 TODO</h3>
-      <ul>
-        <li>Integração EEG</li>
-        <li>Camada magnética dinâmica</li>
-        <li>Fase 2 — sinal óptico</li>
-      </ul>
+          <div class="card">
+            <h3>🧠 TODO</h3>
+            <ul class="note">
+              <li>Integração EEG</li>
+              <li>Camada magnética dinâmica</li>
+              <li>Fase 2 — sinal óptico</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mídias complementares -->
+        <section class="media">
+          <h2>🎧 Mídias Complementares</h2>
+          <p>Assista no YouTube:
+            <a href="https://www.youtube.com/watch?v=wZ7Op9glo6Q" target="_blank" rel="noopener">Episódio / Demo (exemplo)</a>
+          </p>
+          <p>Ouça no Spotify:
+            <a href="https://open.spotify.com/episode/6r0B04qVtqFv5u" target="_blank" rel="noopener">Podcast do projeto (exemplo)</a>
+          </p>
+          <p class="note">Troque os links acima pelos seus quando quiser.</p>
+        </section>
+      </div>
+
+      <!-- Coluna direita: figura + descrições -->
+      <aside class="side">
+        <figure>
+          <img
+            src="/lightenergycomputing/assets/img/lec_diagram.png"
+            alt="Light & Energy Computing — diagrama"
+            onerror="this.style.display='none'"/>
+          <figcaption class="figcap">
+            Light & Energy Computing — emissor fotônico, coerência e conversor computacional.
+          </figcaption>
+        </figure>
+
+        <div class="bullets">
+          <h3>Princípios de operação</h3>
+          <ul>
+            <li>Field Modulation</li>
+            <li>Coherence &amp; Interference</li>
+            <li>Light-Energy-Data Transduction</li>
+          </ul>
+
+          <h3>Aplicações</h3>
+          <ul>
+            <li>Direct Photonic Processing</li>
+            <li>Computational Energy Harvesting</li>
+            <li>Quantum Synchronization</li>
+          </ul>
+        </div>
+
+        <footer>© 2025 Vinicios Ongaratto — Light & Energy Computing.</footer>
+      </aside>
     </div>
   </div>
-
-  <section class="media">
-    <h2>🎧 Mídias Complementares</h2>
-    <p>
-      🎥 Assista no YouTube:
-      <a href="https://www.youtube.com/watch?v=xN7c7opGojg" target="_blank" rel="noopener">Episódio / Demo (exemplo)</a>
-    </p>
-    <p>
-      🎙️ Ouça no Spotify:
-      <a href="https://open.spotify.com/episode/0r9BD4pVqt5u" target="_blank" rel="noopener">Podcast do projeto (exemplo)</a>
-    </p>
-    <p class="note">Troque os links acima pelos seus, quando quiser.</p>
-  </section>
-
-  <footer>© 2025 Vinicios Ongaratto — Light & Energy Computing.</footer>
 </body>
 </html>
