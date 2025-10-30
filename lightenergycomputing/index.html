@@ -1,176 +1,100 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!doctype html>
+<html lang="pt-BR">
 <head>
-<meta http-equiv="Content-Security-Policy" 
-      content="default-src * data: blob:; img-src * data:; media-src * data: blob:; style-src * 'unsafe-inline' https://fonts.googleapis.com; font-src * data:; script-src * 'unsafe-inline' 'unsafe-eval' https://www.youtube.com https://www.google.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://youtu.be blob: data:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests">
-
-<meta name="referrer" content="no-referrer">
-
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Light and Energy Computing — Vinicios Ongaratto</title>
-  <meta name="description" content="Official concept presentation of Light and Energy Computing — original research by Vinicios Ongaratto exploring coherence, photonic energy, and quantum information.">
-  <meta name="author" content="Vinicios Ongaratto">
-  <meta property="og:title" content="Light and Energy Computing — Vinicios Ongaratto">
-  <meta property="og:description" content="Energy becomes the data, light is the channel, and the field is the processor.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://viniciosongaratto.github.io/lightenergycomputing/cover.jpg">
-  <style>
-    body{font-family:'Segoe UI',sans-serif;color:#e0e0e0;background:radial-gradient(circle at 20% 20%,#0a0a0a,#050505 70%);margin:0;line-height:1.6}
-    header{text-align:center;padding:3rem 1rem 1rem}
-    header h1{color:#4de0ff;font-size:2.4rem;letter-spacing:1px;margin:.2rem 0}
-    section{max-width:860px;margin:auto;padding:1rem 2rem;background-color:rgba(255,255,255,.03);border-radius:12px;box-shadow:0 0 30px rgba(77,224,255,.1)}
-    h2{color:#4de0ff;border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:.3rem}
-    a{color:#6af5ff;text-decoration:none} a:hover{text-decoration:underline}
-    footer{text-align:center;padding:2rem;font-size:.9rem;color:#999}
-    .grid{display:grid;grid-template-columns:1fr;gap:1rem}
-    @media(min-width:760px){.grid{grid-template-columns:1.2fr .8fr}}
-    .card{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:1rem}
-  </style>
-  <style>/* yt-embed responsive style */n  .yt-wrap{position:relative;width:100%;max-width:960px;margin:12px auto;border-radius:12px;overflow:hidden;box-shadow:0 0 14px rgba(0,255,255,.15)}n  .yt-wrap::before{content:"";display:block;padding-top:56.25%} /* 16:9 */n  .yt-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}n  </style></head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Light & Energy Computing — Portal</title>
+<style>
+:root{--bg:#0b1220;--panel:#0f1829;--panel2:#101a2e;--line:#162233;--title:#7ef;--text:#cfefff;--muted:#9fc;--accent:#46eef2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Segoe UI,Roboto,Arial}
+a{color:var(--accent);text-decoration:none}.wrap{max-width:1180px;margin:28px auto;padding:0 16px}
+h1{font-size:34px;color:#9ff;text-shadow:0 0 18px rgba(70,238,242,.3);margin:0 0 8px}
+.note{color:var(--muted);font-size:14px;margin:0 0 20px}
+.grid2{display:grid;gap:18px;grid-template-columns:1.25fr .9fr;align-items:start}
+@media (max-width:1024px){.grid2{grid-template-columns:1fr}}
+.cards{display:grid;gap:18px;grid-template-columns:1fr 1fr}
+@media (max-width:720px){.cards{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{margin:0 0 6px}.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:#071524;color:#bff;border:1px solid var(--line)}
+.btn:hover{background:#11223a}
+.media{margin-top:18px;border:1px dashed var(--line);border-radius:14px;padding:16px;background:var(--panel2)}
+.side{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:18px}
+.side figure{margin:0}.side img{width:100%;border:1px solid var(--line);border-radius:12px;background:#081220}
+.figcap{font-size:13px;color:var(--muted);margin-top:6px}
+.bullets h3{margin:14px 0 6px;color:#9ff}.bullets ul{margin:6px 0 12px 18px}
+footer{margin-top:12px;color:var(--muted);font-size:12px}
+</style>
+</head>
 <body>
-  <header>
-<meta http-equiv="Content-Security-Policy" 
-      content="default-src * data: blob:; img-src * data:; media-src * data: blob:; style-src * 'unsafe-inline' https://fonts.googleapis.com; font-src * data:; script-src * 'unsafe-inline' 'unsafe-eval' https://www.youtube.com https://www.google.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://youtu.be blob: data:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests">
+  <div class="wrap">
+    <h1>Light &amp; Energy Computing — Portal</h1>
+    <p class="note">Entrada unificada do projeto (Workspace, PDFs, Mídias e Diagramas).</p>
 
-<meta name="referrer" content="no-referrer">
+    <div class="grid2">
+      <!-- COLUNA ESQUERDA: atalhos -->
+      <div>
+        <div class="cards">
+          <div class="card">
+            <h3>🧭 Workspace</h3>
+            <p>Área com cards, TODO e mídias complementares.</p>
+            <a class="btn" href="/lightenergycomputing/workspace/">Abrir Workspace</a>
+          </div>
+          <div class="card">
+            <h3>📄 PDFs (BrainReader)</h3>
+            <p>Documentos e entregas do projeto.</p>
+            <a class="btn" href="/lightenergycomputing/brainreader/pdfs/">Abrir PDFs</a>
+          </div>
+          <div class="card">
+            <h3>🎬 Vídeo Demo</h3>
+            <p>BrainReader Fase 1 (PMAP).</p>
+            <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Assistir</a>
+          </div>
+          <div class="card">
+            <h3>🖼️ Imagens</h3>
+            <p>Capturas e artes do projeto.</p>
+            <a class="btn" href="/lightenergycomputing/assets/img/">Abrir imagens</a>
+          </div>
+        </div>
 
+        <section class="media">
+          <h2>🎧 Mídias Complementares</h2>
+          <p>Assista no YouTube:
+            <a href="https://www.youtube.com/watch?v=wZ7Op9glo6Q" target="_blank" rel="noopener">Episódio / Demo (exemplo)</a>
+          </p>
+          <p>Ouça no Spotify:
+            <a href="https://open.spotify.com/episode/6r0B04qVtqFv5u" target="_blank" rel="noopener">Podcast do projeto (exemplo)</a>
+          </p>
+          <p class="note">Substitua os links pelos seus quando quiser.</p>
+        </section>
+      </div>
 
-    <h1>Light and Energy Computing</h1>
-    <p><b>Concept & Ideological–Scientific Framework</b><br/>by <b>Vinicios Ongaratto</b></p>
-  </header>
+      <!-- COLUNA DIREITA: diagrama + bullets -->
+      <aside class="side">
+        <figure>
+          <img src="/lightenergycomputing/assets/img/lec_diagram.svg"
+               alt="Light & Energy Computing — diagrama"/>
+          <figcaption class="figcap">Emissor fotônico, coerência e conversor computacional.</figcaption>
+        </figure>
 
-  <section class="grid">
-    <div class="card">
-      <h2>Abstract</h2>
-      <p>Light and Energy Computing is an original research concept developed by <b>Vinicios Ongaratto</b>, proposing computation where <i>energy coherence</i>, <i>light propagation</i>, and <i>quantum synchronization</i> serve as the foundation of information processing.</p>
-      <ul>
-        <li>⚡ Energy becomes the <b>information carrier</b>.</li>
-        <li>💡 Light becomes the <b>computational channel</b>.</li>
-        <li>🌐 Electromagnetic coherence becomes the <b>logical structure</b>.</li>
-      </ul>
-      <h2>Publications</h2>
-      <ul>
-        <li><a href="Light_and_Energy_Computing_ViniciosOngaratto.pdf" target="_blank" rel="noopener noreferrer">Light and Energy Computing (2025)</a></li>
-        <li><a href="Ideological_Scientific_Context_ViniciosOngaratto.pdf" target="_blank" rel="noopener noreferrer">Ideological–Scientific Context (2025)</a></li>
-      <li><a href="https://youtu.be/okL55hP5HJo" target="_blank" rel="noopener noreferrer">🎥 Light & Energy Computing — Full Video Presentation (2025)</a></li>
+        <div class="bullets">
+          <h3>Princípios de operação</h3>
+          <ul>
+            <li>Field Modulation</li>
+            <li>Coherence &amp; Interference</li>
+            <li>Light-Energy-Data Transduction</li>
+          </ul>
 
-      </ul>
+          <h3>Aplicações</h3>
+          <ul>
+            <li>Direct Photonic Processing</li>
+            <li>Computational Energy Harvesting</li>
+            <li>Quantum Synchronization</li>
+          </ul>
+        </div>
+
+        <footer>© 2025 Vinicios Ongaratto — Light & Energy Computing.</footer>
+      </aside>
     </div>
-    <div class="card" style="text-align:center">
-      <img src="cover.jpg" alt="Light & Energy Computing cover" style="max-width:100%;border-radius:10px;opacity:.95"/>
-    </div>
-  </section>
-
-  <section class="card" style="max-width:860px;margin:1rem auto">
-    <h2>Intellectual Statement</h2>
-    <p>🔬 This concept material was created and authored by <b>Vinicios Ongaratto</b>.<br/>
-       “This content has never aired on television in the US.”<br/>
-       © 2025 Vinicios Ongaratto — Original Intellectual Source.</p>
-  </section>
-
-  <footer>
-    © 2025 Vinicios Ongaratto • All rights reserved
-  </footer>
-  <section class="card" style="max-width:860px;margin:1rem auto">
-    <h2>Watch / Listen</h2>
-    <p>🎥 <a href="https://youtu.be/_1ai6Psgx4Y" target="_blank" rel="noopener" rel="noopener noreferrer">Light & Energy Computing — FULL Podcast (YouTube)</a></p>
-    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid rgba(255,255,255,.06)">
-      <div class="yt-wrap"><div class=""card"" style=""max-width:860px;margin:14px 0;padding:18px;border:1px solid #1b2432;border-radius:14px;background:#0f1b2a;text-align:center"">
-  <p style=""color:#cfd8dc;margin:0 0 10px"">Watch the full conversation on my channel:</p>
-  <a href=""https://www.youtube.com/@vincentonguk"" target=""_blank""
-     style=""display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #4de0ff;background:#4de0ff;color:#0e1621;text-decoration:none;font-weight:700"">
-     🎥 Watch on YouTube
-  </a>
-</div></div>
-  <p style="text-align:center;margin-top:8px">
-    <a class="btn" href="https://www.youtube.com/watch?v=_1ai6Psgx4Y" target="_blank" rel="noopener noreferrer">
-      ▶️ Assistir no YouTube
-    </a>
-  </p>
-    </div>
-  </section>
-  <!-- duplicate YouTube embed removed -->
-  <section class="card" style="max-width:860px;margin:2rem auto;text-align:center">
-    <p style="font-size:1.1rem;color:#ccc">
-      🎥 <a href="https://www.youtube.com/watch?v=xN7c7opGojg" target="_blank" style="color:#4de0ff;text-decoration:none" rel="noopener noreferrer">
-        <section class="card" style="max-width:860px;margin:2rem auto;text-align:center">
-    <p style="font-size:1.1rem;color:#ccc">
-      🎥 <a href="https://www.youtube.com/watch?v=xN7c7opGojg" target="_blank" style="color:#4de0ff;text-decoration:none" rel="noopener noreferrer">
-      Watch the full Podcast Episode (2025) on YouTube</a>
-    </p>
-  </section>  
-  <section class="card" style="max-width:860px;margin:3rem auto;text-align:center">
-    <h2 style="color:#4de0ff;margin-bottom:1rem">🎧 Complementary Media Section</h2>
-    <p style="font-size:1.1rem;color:#ccc;margin-bottom:0.8rem">
-      <a href="https://www.youtube.com/watch?v=xN7c7opGojg" target="_blank" style="color:#4de0ff;text-decoration:none" rel="noopener noreferrer">
-      🎥 Watch the full Podcast Episode (2025) on YouTube</a>
-    </p>
-    <p style="font-size:1.1rem;color:#ccc">
-      
-  <div style="position:relative;max-width:860px;margin:0.5rem auto 0;overflow:hidden;border-radius:10px;border:1px solid rgba(255,255,255,.06)">
-    <div class=""card"" style=""max-width:860px;margin:14px 0;padding:18px;border:1px solid #1b2432;border-radius:14px;background:#0f1b2a;text-align:center"">
-  <p style=""color:#cfd8dc;margin:0 0 10px"">Watch the full conversation on my channel:</p>
-  <a href=""https://www.youtube.com/@vincentonguk"" target=""_blank""
-     style=""display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #4de0ff;background:#4de0ff;color:#0e1621;text-decoration:none;font-weight:700"">
-     🎥 Watch on YouTube
-  </a>
-</div>
   </div>
-<section class="card" style="text-align:center;margin:3rem auto;max-width:800px">
-  <h2 style="color:#4de0ff;font-size:1.8rem;margin-bottom:10px;">🧠 BrainReader — PMAP (SIM) Phase 1</h2>
-  <p style="color:#ccc;font-size:1.1rem;margin-bottom:16px;">
-    Explore o ambiente de simulação inicial do projeto <b>BrainReader</b>, parte do sistema <i>Light & Energy Computing</i>.
-  </p>
-  <a href="./brainreader/"
-     style="display:inline-block;padding:12px 28px;
-            background:#001018;border:1px solid #4de0ff;
-            border-radius:14px;color:#4de0ff;text-decoration:none;
-            font-weight:bold;box-shadow:0 0 15px #00ffff;transition:all .3s ease;">
-    🚀 Acessar BrainReader Simulation
-  </a>
-</section>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Quick link to SQLA Research Hub -->
-<div style="margin:18px 0;padding:12px;border:1px solid #1b2432;border-radius:12px;background:#0f1520">
-  <strong>Research:</strong>
-  <a href="/lightenergycomputing/sqla.html" style="color:#4de0ff;text-decoration:none">SQLA Research Hub + Podcast</a>
-</div>
-
-
-<section class="card" style="margin-top:24px">
-  <h2 class="section-title">🎧 Spotify — Canal Oficial (mais projetos)</h2>
-  <p class="note">Acompanhe todos os episódios e projetos de pesquisa no canal do Spotify.</p>
-  <div class=""card"" style=""max-width:860px;margin:14px 0;padding:18px;border:1px solid #1b2432;border-radius:14px;background:#0f1b2a;text-align:center"">
-  <p style=""color:#cfd8dc;margin:0 0 10px"">Watch the full conversation on my channel:</p>
-  <a href=""https://www.youtube.com/@vincentonguk"" target=""_blank""
-     style=""display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #4de0ff;background:#4de0ff;color:#0e1621;text-decoration:none;font-weight:700"">
-     🎥 Watch on YouTube
-  </a>
-</div>
-
-  <div style="margin-top:10px">
-    ✅ <a href="https://open.spotify.com/show/5OwVBR88iNi4QmiBZwSlLZ" target="_blank" rel="noopener" style="color:#4de0ff">Abrir canal no Spotify</a><br/>
-    📌 Dica: Desative bloqueadores (Brave Shields/AdBlock) se o player não aparecer.
-  </div>
-</section>
-
-
+</html>
