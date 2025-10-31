@@ -23,14 +23,14 @@
     <div class="card">
       <h3>📹 Vídeo Demo</h3>
       <p class="note">BrainReader Fase 1 (PMAP).</p>
-      <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Watch video</a>
+      <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Abrir vídeo</a>
     </div>
     <div class="card">
-      <h3>📄 Project PDFs</h3>
-      <a class="btn" href="/lightenergycomputing/brainreader/pdf/" target="_blank">Open PDFs</a>
+      <h3>📄 PDFs do Projeto</h3>
+      <a class="btn" href="/lightenergycomputing/brainreader/pdf/" target="_blank">Abrir PDFs</a>
     </div>
     <div class="card">
-      <h3>🖼️ Images</h3>
+      <h3>🖼️ Imagens</h3>
       <a class="btn" href="#">(adicionar depois)</a>
     </div>
     <div class="card">
@@ -43,4 +43,3 @@
 </div>
 </body>
 </html>
-

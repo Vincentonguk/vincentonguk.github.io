@@ -37,27 +37,27 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
           <div class="card">
             <h3>🧭 Workspace</h3>
             <p>Ambiente de simulação e leitura neural (PMAP / DEUS SLIM).</p>
-            <a class="btn" href="/lightenergycomputing/workspace/">Open BrainReader</a>
+            <a class="btn" href="/lightenergycomputing/workspace/">Abrir BrainReader</a>
           </div>
           <div class="card">
             <h3>📄 PDFs (BrainReader)</h3>
-            <p>Project documents and deliverables.</p>
-            <a class="btn" href="/lightenergycomputing/brainreader/pdfs/">Open PDFs</a>
+            <p>Documentos e entregas do projeto.</p>
+            <a class="btn" href="/lightenergycomputing/brainreader/pdfs/">Abrir PDFs</a>
           </div>
           <div class="card">
             <h3>🎬 Vídeo Demo</h3>
             <p>BrainReader Fase 1 (PMAP).</p>
-            <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Watch</a>
+            <a class="btn" href="/lightenergycomputing/assets/media/brainreader_demo.mp4">Assistir</a>
           </div>
           <div class="card">
-            <h3>🖼️ Images</h3>
+            <h3>🖼️ Imagens</h3>
             <p>Capturas e artes do projeto.</p>
-            <a class="btn" href="/lightenergycomputing/assets/img/">Open images</a>
+            <a class="btn" href="/lightenergycomputing/assets/img/">Abrir imagens</a>
           </div>
         </div>
 
         <section class="media">
-          <h2>🎧 Additional Media</h2>
+          <h2>🎧 Mídias Complementares</h2>
           <p>Assista no YouTube:
             <a href="https://www.youtube.com/watch?v=wZ7Op9glo6Q" target="_blank" rel="noopener">Episódio / Demo (exemplo)</a>
           </p>
@@ -101,7 +101,7 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
     <div class="card">
       <h3>BrainReader</h3>
       <p>Ambiente de simulação e leitura neural (PMAP / DEUS SLIM).</p>
-      <a href="./brainreader/" class="btn">Open BrainReader</a>
+      <a href="./brainreader/" class="btn">Abrir BrainReader</a>
     </div>
   </section>
 <section class="card" style="max-width:1080px;margin:18px auto">
@@ -113,7 +113,6 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
 </section>
 </body>
 </html>
-
 
 
 

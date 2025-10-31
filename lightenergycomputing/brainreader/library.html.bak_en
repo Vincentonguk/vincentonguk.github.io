@@ -78,8 +78,7 @@
         <div class="card">
           <h2>Live Screens</h2>
           <div class="img">
-            <!-- replace with real screenshot -->
-            <img src="images/brainreader-ui.png" alt="BrainReader PMAP UI (SIM) screenshot">
+            <img src="/lightenergycomputing/assets/img/brainreader-ui.png?v=20251030155152" alt="BrainReader PMAP UI (SIM) screenshot">
           </div>
           <p class="muted" style="margin:8px 2px 0">Add a screenshot of the PMAP window (Message/Port).</p>
         </div>
@@ -91,8 +90,11 @@
         <h2>Signal Simulation</h2>
         <p>We model a binary intensity pattern representing coherent alignment bursts. Low level ≈ idle/noise; high level ≈ synchronized energy window. This mirrors the conceptual <i>photonic emitter → receiver</i> path.</p>
         <div class="img">
-          <!-- replace with real plot -->
-          <img src="images/signal-plot.png" alt="Simulated light/energy signal plot">
+          <div style=""position:relative;width:100%;height:320px;border:1px solid #162233;border-radius:16px;overflow:hidden;background:#0b1220"">
+  <video src=""/lightenergycomputing/assets/media/brainreader_demo.mp4?v=20251030160943"" playsinline autoplay muted loop
+         style=""position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.08) brightness(1.02);"">
+  </video>
+</div>
         </div>
         <p class="muted" style="margin:8px 2px 0">Add the Matplotlib plot you already generated.</p>
       </div>
@@ -112,48 +114,81 @@
       </div>
     </section>
 
-    <!-- NEW: Live Screens — DEUS & App (final) -->
     <section class="card" style="margin-top:24px">
       <h2>Live Screens — DEUS &amp; App</h2>
       <div style="display:grid;gap:16px;grid-template-columns:1fr 1fr;max-width:1100px">
         <figure style="margin:0">
-          <img
-            src="/lightenergycomputing/assets/img/deus_screenshot.png"
-            onerror="this.onerror=null;this.src='/lightenergycomputing/assets/img/deus_screenshot.svg'"
-            alt="DEUS — Message/Port"
-            style="width:100%;border:1px solid #1b2432;border-radius:14px" />
+          <img src="/lightenergycomputing/assets/img/deus_screenshot.png?v=20251030160943" alt="DEUS — Message/Port"
+               style="width:100%;border:1px solid #1b2432;border-radius:14px" />
           <figcaption style="color:#9ec9db;margin-top:8px">DEUS — Message/Port (SIM)</figcaption>
         </figure>
         <figure style="margin:0">
-          <img
-            src="/lightenergycomputing/assets/img/app_screenshot.png"
-            onerror="this.onerror=null;this.src='/lightenergycomputing/assets/img/app_screenshot.svg'"
-            alt="App — PMAP/SCFL"
-            style="width:100%;border:1px solid #1b2432;border-radius:14px" />
+          <div style=""position:relative;width:100%;height:320px;border:1px solid #162233;border-radius:16px;overflow:hidden;background:#0b1220"">
+  <video src=""/lightenergycomputing/assets/media/=20251030162526""
+         poster=""/lightenergycomputing/assets/img/=20251030162526""
+         playsinline autoplay muted loop
+         style=""position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.08) brightness(1.02);"">
+    <source src=""/lightenergycomputing/assets/media/=20251030162526"" type=""video/mp4"">
+  </video>
+  <div style=""position:absolute;inset:auto 8px 8px auto;font:600 12px system-ui;color:#9ec9db;background:#0d1626cc;padding:4px 8px;border-radius:8px;border:1px solid #1b2432"">
+    App — PMAP/SCFL Loop (SIM)
+  </div>
+  <noscript>
+    <a href=""/lightenergycomputing/assets/media/app_loop.mp4"" target=""_blank"" style=""color:#4de0ff;text-decoration:none"">Abrir vídeo do App (MP4)</a>
+  </noscript>
+</div>
           <figcaption style="color:#9ec9db;margin-top:8px">App — PMAP / SCFL Loop</figcaption>
         </figure>
       </div>
     </section>
-    <!-- /NEW -->
 
-    <!-- Figures centralizados (mantive como estavam, só corrigi aspas/caracteres) -->
-    <section class="card" style="text-align:center;margin:24px 0 0">
-      <h3 style="color:#4de0ff;margin:0">BrainReader – PMAP Simulation Environment</h3>
-      <img src="./images/signal-plot.png?v=1"
-           alt="BrainReader PMAP Simulation Environment"
-           style="max-width:90%; border-radius:16px; box-shadow:0 0 25px #0ff; margin-top:12px;">
-      <p style="color:#aaa; font-size:0.9rem; margin-top:8px;">Figure 1 – BrainReader PMAP Interface and Signal Mapping</p>
+    <!-- 🌌 NEW: BrainReader Video Section -->
+    <section style="
+      position:relative;
+      width:100%;
+      max-width:940px;
+      margin:48px auto;
+      padding:24px;
+      background:#0b1220;
+      border:1px solid #182a3f;
+      border-radius:20px;
+      box-shadow:0 0 24px rgba(77,224,255,0.08);
+      text-align:center;
+      overflow:hidden;">
+      <h2 style="font-size:1.5rem;font-weight:600;color:#4de0ff;text-shadow:0 0 6px rgba(77,224,255,0.5);margin-bottom:16px;">
+        ⚙️ BrainReader — PMAP (Phase 1) Demo
+      </h2>
+
+      <div style="position:relative;border-radius:16px;overflow:hidden;border:1px solid #1b3b55;background:#09111f;aspect-ratio:16/9;margin-bottom:20px;">
+        <video id="brainreaderVideo"
+               src="/lightenergycomputing/assets/media/brainreader_demo.mp4?v=2"
+               muted autoplay playsinline loop preload="auto"
+               style="width:100%;height:100%;object-fit:cover;display:block;border:none;">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <a href="/lightenergycomputing/assets/media/brainreader_demo.mp4?v=2" target="_blank"
+         style="display:inline-block;padding:12px 28px;border-radius:40px;background:linear-gradient(90deg,#00aaff,#4de0ff);
+                color:#fff;font-weight:600;text-decoration:none;letter-spacing:0.5px;box-shadow:0 0 20px rgba(77,224,255,0.3);
+                transition:all 0.25s ease;font-size:1rem;">
+        🎬 Abrir Vídeo Completo — BrainReader Demo
+      </a>
+
+      <p style="margin-top:12px;color:#9dc8e2;font-size:0.9rem">
+        Powered by <b>Light Energy Computing</b> — 2025 © Vinicios Ongaratto
+      </p>
+
+      <style>
+        a:hover {
+          box-shadow:0 0 30px rgba(77,224,255,0.55);
+          transform:translateY(-2px);
+          background:linear-gradient(90deg,#4de0ff,#00bfff);
+        }
+      </style>
     </section>
+    <!-- /Video Section -->
 
-    <section class="card" style="text-align:center;margin-top:16px">
-      <h3 style="color:#4de0ff;margin:0">Signal Plot (SIM)</h3>
-      <img src="./images/signal-plot.png?v=1"
-           alt="Simulated BrainReader signal plot"
-           style="max-width:85%; border-radius:16px; box-shadow:0 0 25px #00ffff; margin-top:12px;">
-      <p style="color:#aaa; font-size:0.9rem; margin-top:8px;">Figure 2 – Simulated coherent photonic energy signal</p>
-    </section>
-
-    <!-- MOVED INSIDE CONTAINER -->
     <section class="card" style="text-align:center;margin:24px 0">
       <h2 style="color:#4de0ff;margin:0 0 8px">📄 Documents / PDFs</h2>
       <p>Visualize e exporte as versões em PDF do projeto.</p>
@@ -167,49 +202,29 @@
       <p class="note">Questions or collaboration? Contact via the main page or repository issues.</p>
     </section>
 
-    <footer>© 2025 Vinicios Ongaratto — BrainReader PMAP (SIM)
-</footer>
+    <footer>© 2025 Vinicios Ongaratto — BrainReader PMAP (SIM)</footer>
   </div>
+
+  <script>
+    (function(){
+      const v=document.getElementById('brainreaderVideo');
+      const tryPlay=()=>{
+        const p=v.play?.();
+        if(p&&typeof p.then==='function')p.catch(()=>{});
+      };
+      document.addEventListener('click',tryPlay,{once:true,passive:true});
+      document.addEventListener('touchstart',tryPlay,{once:true,passive:true});
+      v.addEventListener('loadeddata',tryPlay);
+      tryPlay();
+    })();
+  </script>
 </body>
 </html>
 
-<!-- === Research Library Section — Brain Reader === -->
-<section style="max-width:1100px;margin:40px auto;padding:0 16px">
-  <header style="margin-bottom:18px">
-    <h2 style="color:#4de0ff;margin:0 0 8px;font:700 28px/1.2 system-ui,Segoe UI,Roboto,Arial">🧠 Brain Reader — Research Library</h2>
-    <p style="color:#9ec9db;margin:0;font:400 15px/1.6 system-ui,Segoe UI,Roboto">Documents, phases and working papers related to cognitive & kinetic integration, energy-signal interfaces, and human–machine coherence.</p>
-  </header>
 
-  <div class="br-grid" style="display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-    <article class="br-card" style="background:#0f1b2a;border:1px solid #1b2432;border-radius:16px;padding:16px;transition:.25s;">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
-        <div style="width:10px;height:10px;border-radius:50%;background:#4de0ff;"></div>
-        <h3 style="color:#e6eef2;margin:0;font:600 18px/1.3 system-ui">Project Brain Development</h3>
-      </div>
-      <p style="color:#cfd8dc;margin:4px 0 10px;font:400 14px/1.6 system-ui">
-        Phase 1 — Cognitive & Kinetic Integration. Foundations, objectives, security protocol and applications.
-      </p>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px">
-        <span style="font:600 11px system-ui;color:#9ec9db;border:1px solid #243244;border-radius:999px;padding:4px 8px">Phase 1</span>
-        <span style="font:600 11px system-ui;color:#9ec9db;border:1px solid #243244;border-radius:999px;padding:4px 8px">PDF</span>
-        <span style="font:600 11px system-ui;color:#9ec9db;border:1px solid #243244;border-radius:999px;padding:4px 8px">2025</span>
-      </div>
-      <a href="/lightenergycomputing/brainreader/pdf/BrainReader_Project_Development.pdf" target="_blank"
-         style="display:inline-block;text-decoration:none;background:#4de0ff;color:#0e1621;border:1px solid #4de0ff;border-radius:12px;padding:10px 14px;font:700 13px system-ui">
-        📘 View / Download
-      </a>
-      <div style="color:#9ec9db;font:400 12px/1.6 system-ui;margin-top:10px">
-        Author: Vinicios Ongaratto · Contact: vincentonguk@gmail.com
-      </div>
-    </article>
-  </div>
-</section>
-<script>
-  document.querySelectorAll('.br-card').forEach(c=>{
-    c.addEventListener('mouseenter',()=>{ c.style.transform='translateY(-2px)'; c.style.boxShadow='0 6px 18px rgba(0,0,0,.30)'; });
-    c.addEventListener('mouseleave',()=>{ c.style.transform='translateY(0)'; c.style.boxShadow='none'; });
-  });
-</script>
-<!-- === /Research Library Section === -->
+
+
+
+
 
 

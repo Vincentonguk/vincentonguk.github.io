@@ -1,4 +1,4 @@
-﻿<!-- 🌌 BrainReader — Demo Video Block (Neon Blue Edition) -->
+<!-- 🌌 BrainReader — Demo Video Block (Neon Blue Edition) -->
 <section style="
   position:relative;
   width:100%;
@@ -62,7 +62,7 @@
        box-shadow:0 0 20px rgba(77,224,255,0.3);
        transition:all 0.25s ease;
        font-size:1rem;">
-    🎬 Watch video Completo — BrainReader Demo
+    🎬 Abrir Vídeo Completo — BrainReader Demo
   </a>
 
   <style>
@@ -87,4 +87,3 @@
   tryPlay();
 })();
 </script>
-

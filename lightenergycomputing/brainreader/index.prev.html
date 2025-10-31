@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>BrainReader — PMAP (SIM)</title>
+<style>
+:root{--bg:#0b1220;--panel:#0f1b2a;--line:#1b2432;--title:#4de0ff;--text:#e6eef2;--muted:#9ec9db}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto}
+.wrap{max-width:1100px;margin:28px auto;padding:0 16px}
+.h{background:#0f1b2a;border:1px solid #1b2432;border-radius:16px;padding:18px}
+h1{margin:0 0 6px;color:#def} h2{margin:0 0 10px;color:#def} h3{margin:0 0 10px}
+a.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--title);background:var(--title);color:#0e1621;text-decoration:none;font-weight:700}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+.badge{display:inline-block;color:var(--muted);border:1px solid #243244;border-radius:999px;padding:4px 8px;font:600 11px system-ui;margin-right:6px}
+.meta{color:var(--muted);font-size:13px}
+.player{position:relative;width:100%;height:360px;border:1px solid #162233;border-radius:16px;overflow:hidden;background:#0b1220}
+.player video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.08) brightness(1.02)}
+.note{color:var(--muted);font:400 14px/1.6 system-ui}
+</style>
+</head><body>
+  <div class="wrap">
+    <header class="h" style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+      <div>
+        <a href="/lightenergycomputing/" style="color:#9ec9db;text-decoration:none">← Light & Energy Computing</a>
+        <h1>BrainReader — PMAP (SIM) <span class="badge">Phase 1</span></h1>
+        <p class="note" style="margin:6px 0 0">Practical demo of the Light & Energy Computing framework. We simulate a coherent signal channel and visualize intensity over time.</p>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a class="btn" href="https://www.youtube.com/@vincentonguk" target="_blank">🎥 Watch on YouTube</a>
+        <a class="btn" href="/lightenergycomputing/brainreader/pdfs/BrainReader_Project_Development.pdf" target="_blank">📘 Framework PDF</a>
+      </div>
+    </header>
+
+    <!-- Live Screens (topo) -->
+    <section class="h">
+      <h3>Live Screens — DEUS & App</h3>
+      <div class="grid">
+        <article class="card">
+          <header style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+            <div style="width:10px;height:10px;border-radius:50%;background:#4de0ff"></div>
+            <h4 style="margin:0">DEUS — Message/Port (SIM)</h4>
+          </header>
+          <div class="player">
+            <!-- placeholder, pode virar vídeo depois -->
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#9ec9db">Placeholder (screenshot)</div>
+          </div>
+          <p class="note">Message/Port channel.</p>
+        </article>
+
+        <article class="card">
+          <header style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+            <div style="width:10px;height:10px;border-radius:50%;background:#4de0ff"></div>
+            <h4 style="margin:0">App — PMAP/SCFL Loop (Placeholder)</h4>
+          </header>
+          <div class="player">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#9ec9db">Placeholder (screenshot)</div>
+          </div>
+          <p class="note">SCFL loop placeholder.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PMAP Simulation Environment (com VÍDEO no card esquerdo) -->
+    <section class="h">
+      <h3>BrainReader — PMAP Simulation Environment</h3>
+      <div class="grid">
+        <article class="card">
+          <header style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+            <div style="width:10px;height:10px;border-radius:50%;background:#4de0ff"></div>
+            <h4 style="margin:0">BrainReader UI (SIM)</h4>
+          </header>
+          <div class="player">
+            <video src="/lightenergycomputing/assets/media/brainreader_demo.mp4?v=2" playsinline autoplay muted loop></video>
+          </div>
+          <p class="note">UI demo em loop — energia/coerência em tempo real (SIM).</p>
+        </article>
+
+        <article class="card">
+          <header style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+            <div style="width:10px;height:10px;border-radius:50%;background:#4de0ff"></div>
+            <h4 style="margin:0">Signal Plot (SIM)</h4>
+          </header>
+          <div class="player">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#9ec9db">(Placeholder do gráfico — pode virar vídeo/GIF/canvas)</div>
+          </div>
+          <p class="note">Osciloscópio conceitual (ondas ciano).</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Notas Técnicas -->
+    <section class="h">
+      <h3>Technical Notes</h3>
+      <ul class="note" style="margin-top:6px">
+        <li><b>Channel</b>: coherent burst windows over time (discrete sampling)</li>
+        <li><b>Data</b>: message & port map to seed/phase pattern</li>
+        <li><b>Next</b>: couple to physical emitters/receivers and sensors</li>
+        <li><b>Artifacts</b>: screenshots and CSV traces (soon)</li>
+      </ul>
+      <p class="meta">Author: Vinicios Ongaratto · Contact: vincentonguk@gmail.com · YouTube/X/Facebook/Spotify: @vincentonguk</p>
+    </section>
+  </div>
+</body></html>
+
+
+
+
+
+
+
+

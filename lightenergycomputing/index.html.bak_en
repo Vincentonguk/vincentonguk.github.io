@@ -7,7 +7,6 @@
 <script>location.replace("./brainreader/");</script>
 <style>body{background:#0b0f14;color:#eaf6ff;font:16px system-ui,Segoe UI,Roboto,Arial}a{color:#4de0ff}</style>
 </head><body>
-<p>Redirecting to <a href="./brainreader/">BrainReader</a>…</p>
-<p style="opacity:.7">Want the full portal? <a href="./portal/">abrir /portal</a></p>
+<p>Redirecionando para <a href="./brainreader/">BrainReader</a>…</p>
+<p style="opacity:.7">Quer o portal completo? <a href="./portal/">abrir /portal</a></p>
 </body></html>
-
