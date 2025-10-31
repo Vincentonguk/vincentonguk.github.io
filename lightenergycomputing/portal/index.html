@@ -28,7 +28,27 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
 <body>
   <div class="wrap">
     <h1>Light &amp; Energy Computing — Portal</h1>
-    <p class="note">“Energy becomes thought, and thought becomes form.<br>Energy knows no distance when the light pulses in the right direction.”</p>
+    <p class="note"><style>
+@keyframes pulseLight {
+  0%, 100% { text-shadow:0 0 12px #5de0ff, 0 0 28px #4de0ff, 0 0 60px rgba(77,224,255,0.5); opacity: 1; }
+  50% { text-shadow:0 0 25px #80f0ff, 0 0 45px #6fe8ff, 0 0 80px rgba(77,224,255,0.7); opacity: 0.92; }
+}
+.pulse-text {
+  color:#b9ecff;
+  font-size:1.35rem;
+  line-height:1.7;
+  font-weight:500;
+  font-family:serif;
+  text-align:center;
+  margin-top:1.4rem;
+  animation:pulseLight 6s ease-in-out infinite;
+}
+</style>
+
+<div class='pulse-text'>
+  “Energy becomes thought, and thought becomes form.”<br>
+  Energy knows no distance when the light pulses in the right direction.
+</div></p>
 
     <div class="grid2">
       <!-- COLUNA ESQUERDA: atalhos -->
@@ -113,6 +133,7 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
 </section>
 </body>
 </html>
+
 
 
 
