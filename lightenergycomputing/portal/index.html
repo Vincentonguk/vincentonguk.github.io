@@ -6,8 +6,10 @@
 <title>Light & Energy Computing — Portal</title>
 <style>
 :root{--bg:#0b1220;--panel:#0f1829;--panel2:#101a2e;--line:#162233;--title:#7ef;--text:#cfefff;--muted:#9fc;--accent:#46eef2}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Segoe UI,Roboto,Arial}
-a{color:var(--accent);text-decoration:none}.wrap{max-width:1180px;margin:28px auto;padding:0 16px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Segoe UI,Roboto,Arial}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:1180px;margin:28px auto;padding:0 16px}
 h1{font-size:34px;color:#9ff;text-shadow:0 0 18px rgba(70,238,242,.3);margin:0 0 8px}
 .note{color:var(--muted);font-size:14px;margin:0 0 20px}
 .grid2{display:grid;gap:18px;grid-template-columns:1.25fr .9fr;align-items:start}
@@ -15,43 +17,48 @@ h1{font-size:34px;color:#9ff;text-shadow:0 0 18px rgba(70,238,242,.3);margin:0 0
 .cards{display:grid;gap:18px;grid-template-columns:1fr 1fr}
 @media (max-width:720px){.cards{grid-template-columns:1fr}}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
-.card h3{margin:0 0 6px}.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:#071524;color:#bff;border:1px solid var(--line)}
+.card h3{margin:0 0 6px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:#071524;color:#bff;border:1px solid var(--line)}
 .btn:hover{background:#11223a}
 .media{margin-top:18px;border:1px dashed var(--line);border-radius:14px;padding:16px;background:var(--panel2)}
 .side{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:18px}
-.side figure{margin:0}.side img{width:100%;border:1px solid var(--line);border-radius:12px;background:#081220}
+.side figure{margin:0}
+.side img{width:100%;border:1px solid var(--line);border-radius:12px;background:#081220}
 .figcap{font-size:13px;color:var(--muted);margin-top:6px}
-.bullets h3{margin:14px 0 6px;color:#9ff}.bullets ul{margin:6px 0 12px 18px}
+.bullets h3{margin:14px 0 6px;color:#9ff}
+.bullets ul{margin:6px 0 12px 18px}
 footer{margin-top:12px;color:var(--muted);font-size:12px}
 </style>
 </head>
 <body>
   <div class="wrap">
     <h1>Light &amp; Energy Computing — Portal</h1>
-    <p class="note"><style>
-@keyframes pulseLight {
-  0%, 100% { text-shadow:0 0 12px #5de0ff, 0 0 28px #4de0ff, 0 0 60px rgba(77,224,255,0.5); opacity: 1; }
-  50% { text-shadow:0 0 25px #80f0ff, 0 0 45px #6fe8ff, 0 0 80px rgba(77,224,255,0.7); opacity: 0.92; }
-}
-.pulse-text {
-  color:#b9ecff;
-  font-size:1.35rem;
-  line-height:1.7;
-  font-weight:500;
-  font-family:serif;
-  text-align:center;
-  margin-top:1.4rem;
-  animation:pulseLight 6s ease-in-out infinite;
-}
-</style>
+    <p class="note">
+      <style>
+        @keyframes pulseLight {
+          0%, 100% { text-shadow:0 0 12px #5de0ff, 0 0 28px #4de0ff, 0 0 60px rgba(77,224,255,0.5); opacity: 1; }
+          50% { text-shadow:0 0 25px #80f0ff, 0 0 45px #6fe8ff, 0 0 80px rgba(77,224,255,0.7); opacity: 0.92; }
+        }
+        .pulse-text {
+          color:#b9ecff;
+          font-size:1.35rem;
+          line-height:1.7;
+          font-weight:500;
+          font-family:serif;
+          text-align:center;
+          margin-top:1.4rem;
+          animation:pulseLight 6s ease-in-out infinite;
+        }
+      </style>
 
-<div class='pulse-text'>
-  “Energy becomes thought, and thought becomes form.”<br>
-  Energy knows no distance when the light pulses in the right direction.
-</div></p>
+      <div class='pulse-text'>
+        “Energy becomes thought, and thought becomes form.”<br>
+        Energy knows no distance when the light pulses in the right direction.
+      </div>
+    </p>
 
     <div class="grid2">
-      <!-- COLUNA ESQUERDA: atalhos -->
+      <!-- COLUNA ESQUERDA -->
       <div>
         <div class="cards">
           <div class="card">
@@ -76,19 +83,32 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
           </div>
         </div>
 
+        <!-- 🎧 MÍDIAS COMPLEMENTARES -->
         <section class="media">
           <h2>🎧 Mídias Complementares</h2>
-          <p>Assista no YouTube:
-            <a href="https://www.youtube.com/watch?v=wZ7Op9glo6Q" target="_blank" rel="noopener">Episódio / Demo (exemplo)</a>
+          <p>Assista no YouTube:</p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=okL55hP5HJo&t=37s" target="_blank" rel="noopener"
+               style="display:inline-block;padding:10px 14px;margin:4px;border:1px solid #4de0ff;border-radius:10px;
+               background:#0e1620;color:#4de0ff;text-decoration:none;font-weight:600">
+               ▶️ Episódio / Demo 1
+            </a>
+            <a href="https://www.youtube.com/watch?v=QFRoSfdLBgo&t=121s" target="_blank" rel="noopener"
+               style="display:inline-block;padding:10px 14px;margin:4px;border:1px solid #4de0ff;border-radius:10px;
+               background:#0e1620;color:#4de0ff;text-decoration:none;font-weight:600">
+               ▶️ Episódio / Demo 2
+            </a>
           </p>
+
           <p>Ouça no Spotify:
             <a href="https://open.spotify.com/episode/6r0B04qVtqFv5u" target="_blank" rel="noopener">Podcast do projeto (exemplo)</a>
           </p>
+
           <p class="note">Substitua os links pelos seus quando quiser.</p>
         </section>
       </div>
 
-      <!-- COLUNA DIREITA: diagrama + bullets -->
+      <!-- COLUNA DIREITA -->
       <aside class="side">
         <figure>
           <img src="/lightenergycomputing/assets/img/lec_diagram.png?v=20251030154222"
@@ -116,6 +136,7 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
       </aside>
     </div>
   </div>
+
   <!-- BrainReader: card inserido automaticamente -->
   <section class="grid" style="margin-top:16px">
     <div class="card">
@@ -124,25 +145,13 @@ footer{margin-top:12px;color:var(--muted);font-size:12px}
       <a href="./brainreader/" class="btn">Abrir BrainReader</a>
     </div>
   </section>
-<section class="card" style="max-width:1080px;margin:18px auto">
-  <h3>Documents (Light &amp; Energy Computing)</h3>
-  <ul>
-    <li><a href="../Light_and_Energy_Computing_ViniciosOngaratto.pdf" target="_blank">Light &amp; Energy Computing (PDF)</a></li>
-    <li><a href="../Ideological_Scientific_Context_ViniciosOngaratto.pdf" target="_blank">Ideological–Scientific Context (PDF)</a></li>
-  </ul>
-</section>
+
+  <section class="card" style="max-width:1080px;margin:18px auto">
+    <h3>Documents (Light &amp; Energy Computing)</h3>
+    <ul>
+      <li><a href="../Light_and_Energy_Computing_ViniciosOngaratto.pdf" target="_blank">Light &amp; Energy Computing (PDF)</a></li>
+      <li><a href="../Ideological_Scientific_Context_ViniciosOngaratto.pdf" target="_blank">Ideological–Scientific Context (PDF)</a></li>
+    </ul>
+  </section>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
